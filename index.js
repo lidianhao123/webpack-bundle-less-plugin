@@ -34,7 +34,6 @@ class WebpackBundleLessPlugin {
       "WebpackBundleLessPlugin",
       (compilation, callback) => {
         const publicPath = this.getPublicPath(compilation);
-        console.info(publicPath, compilation.hash);
         const html = `
                 <link rel="stylesheet/less" type="text/css" href="${publicPath}bundle.less" />
                 <script>

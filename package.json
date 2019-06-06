@@ -1,10 +1,15 @@
 {
   "name": "webpack-bundle-less-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:lidianhao123/webpack-bundle-less-plugin.git",
   "author": "dainli@outlook.com",
   "license": "MIT",
+  "keywords": [
+    "plugin",
+    "webpack",
+    "less"
+  ],
   "dependencies": {
     "less-bundle-promise": "^1.0.7"
   }
